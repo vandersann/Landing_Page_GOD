@@ -6,7 +6,7 @@
 
   -------
 > Landing page criada no intuito de praticar conceitos de prototipagem (Figma), Sass e responsividade. 
-A idiea é somular o lançamento do game God of War Ragnarok com as informações básicas sobre o jogo.
+A ideia é simlar o lançamento do game God of War Ragnarok com suas informações básicas.
 >
 > Projeto foi construído com fins didáticos, com o objetivo de colocar em prática os conhecimentos de HTML, Sass e responsividade.
 
