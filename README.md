@@ -22,7 +22,7 @@ A ideia é simlar o lançamento do game God of War Ragnarok com suas informaçõ
 
 * A aplicação foi feita utilizando:
   <img src="https://user-images.githubusercontent.com/65673565/197238032-ca4fa2b6-d812-4e4c-b273-e17b04aaabbf.svg" width="20" height="20">
-  <img src="https://user-images.githubusercontent.com/65673565/197238275-388aa7ce-f0ab-4d23-96f1-c89bccb4cb90.svg" width="20" height="20">
+  <img src="https://github.com/vandersann/monte_seu_burguer/assets/65673565/585b3b38-172a-4538-9120-85c9c3a41626" width="20" height="20">
   <img src="https://github.com/vandersann/Mini_Portifolio/assets/65673565/e2dafb7d-b70d-4a6b-9539-253d029611a5" width="20" height="20">
 
 * Toda aplicação foi criada no sitema operacional `Windows 11`
