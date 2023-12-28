@@ -1,82 +1,110 @@
 .subtitle {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  span {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: #ffffff;
+    margin-left: 1.5rem;
+  }
+  @media (max-width: 1200px) {
+    font-size: 1.8rem;
+  }
+  @media (max-width: 991px) {
+    justify-content: center;
+  }
+  @media (max-width: 560px) {
     span {
-        font-weight: 500;
-        font-size: 2rem;
-        line-height: 2.2rem;
-        margin-left: 1.5rem;
+      font-size: 1.6rem;
     }
+  }
 }
 
 h1 {
-    font-weight: 700;
-    font-size: 12.4rem;
-    line-height: 97.5%;
+  font-weight: 700;
+  font-size: 12.4rem;
+  line-height: 97.5%;
+  @media (max-width: 1200px) {
+    font-size: 10rem;
+  }
 }
 
 h2 {
-    font-weight: 700;
-    font-size: 4.8rem;
-    line-height: 130%;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+  color: #ffffff;
 }
 
 p {
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 160%;
-    color: #BDC2CB;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: #bdc2cb;
 }
 
 .card-character {
+  width: 100%;
+  max-width: 39rem;
+  .image {
+    position: relative;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    max-width: 38.4rem;
+    height: 48rem;
+    overflow: hidden;
+    margin-bottom: 2.4rem;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    button {
+      position: absolute;
+      bottom: 0;
+      padding: 1.8rem 3.6rem;
+      background-color: #3265ea;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 20px;
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+  }
+  .info {
+    h3 {
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 2rem;
+      margin-bottom: 7px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+    span {
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &:hover {
     .image {
-        img {
-            transition: transform .3s ease;
-        }
-        width: 100%;
-        height: 52rem;
-        /* Tudo que ultrapassar a div, ele vai conter dentro da mascara. */
-        overflow: hidden;
-        margin-bottom: 2.4rem;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        button {
-            position: absolute;
-            bottom: 0;
-            padding: 1.8rem 3.6rem;
-            background-color: #3265ea;
-            font-weight: 700;
-            font-size: 1.8rem;
-            line-height: 2rem;
-            opacity: 0;
-            transition: all .3s ease;
-        }
+      img {
+        transform: scale(1.1);
+      }
+      button {
+        bottom: 5.7rem;
+        opacity: 1;
+      }
     }
-    .info {
-        h3 {
-            font-weight: 700;
-            font-size: 1.8rem;
-            line-height: 2rem;
-            margin-bottom: 0.7rem;
-        }
-        span{
-            font-size: 1.4rem;
-            line-height: 1.5rem;
-        }
+  }
+  @media (max-width: 991px) {
+    .image {
+      height: 44rem;
     }
-    /* o '&' para utilizar pseudoclasses, como o caso do hover. No css seria .card-character:hover */
-    &:hover {
-        .image {
-            img {
-                transform: scale(1.1);
-            }
-            button {
-                bottom: 57rem;
-                opacity: 1;
-            }
-        }
-    }
+  }
 }
