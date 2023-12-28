@@ -1,4 +1,4 @@
-## Landing _Page_GOD
+## Landing_Page_GOD
 
 <p align="center">
   <img witdh="800" height="200" src="https://github.com/vandersann/Mini_Portifolio/assets/65673565/c49fc5a6-9931-40e3-b9f7-0bcc484e7c14" alt="logo do projeto Mini portifolio">
@@ -40,4 +40,4 @@ Esse projeto está sob licença. Veja o arquivo <kbd>[MIT](Mit.md)</kbd> para ma
   <img witdh="300" src="https://user-images.githubusercontent.com/65673565/190916838-46057236-9d6e-4e75-b919-d24f673caec7.svg" alt="logo do criador do projeto")
  </p>
   
-  **[⬆ voltar ao topo](#Landing _Page_GOD)**
+  **[⬆ voltar ao topo](#Landing_Page_GOD)**
