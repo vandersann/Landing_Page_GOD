@@ -12,7 +12,7 @@ A ideia é simlar o lançamento do game God of War Ragnarok com suas informaçõ
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/vandersann/Landing-_Page_GOD?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/vandersann/Landing-_Page_GOD?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/Landing-_Page_GOD?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/vandersann/Landing-_Page_GOD?style=for-the-badge)
 
 <p align="left">
 <img  width="800" src="https://github.com/vandersann/Mini_Portifolio/assets/65673565/705bbc95-5438-4a85-8647-a6cdc11ceb3b" alt="apresentacao do site">
